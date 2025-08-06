@@ -1,9 +1,9 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js"
+import { initializeApp } from "https://www.gstatic.com/"
 import { getDatabase,
          ref,
          push,
          onValue,
-         remove } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
+         remove } from "https://www.gstatic.com/";
 
 const firebaseConfig = {
     databaseURL : "your database URL"
@@ -51,3 +51,4 @@ inputBtn.addEventListener("click", function() {
     inputEl.value = ""
 
 })
+
