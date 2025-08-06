@@ -6,7 +6,7 @@ import { getDatabase,
          remove } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
 
 const firebaseConfig = {
-    databaseURL : "https://leads-tracker-app-607a8-default-rtdb.europe-west1.firebasedatabase.app/"
+    databaseURL : "your database URL"
 }
 
 const app = initializeApp(firebaseConfig);
@@ -49,4 +49,5 @@ deleteBtn.addEventListener("click", function() {
 inputBtn.addEventListener("click", function() {
     push(referenceInDB, inputEl.value)
     inputEl.value = ""
+
 })
