@@ -11,7 +11,10 @@ A simple and responsive URL-saving web application that lets users store, displa
 ## 🖼️ Screenshots
 
 <!-- Add your mobile screenshots here -->
+Light Mode on Desktop:
 ![Light Mode Screenshot](https://github.com/zanda-cross/Leads-Tracker-App/blob/bcfd3c890a4ec434a6af646b9bcebaf884e41576/images/desktop-1.png)
+
+Dark Mode on Desktop:
 ![Dark Mode Screenshot](https://github.com/zanda-cross/Leads-Tracker-App/blob/bcfd3c890a4ec434a6af646b9bcebaf884e41576/images/desktop-2.png)
 
 ---
@@ -19,12 +22,23 @@ A simple and responsive URL-saving web application that lets users store, displa
 ## 📲 Installation & Usage
 
 You can run this web app locally or install it on mobile using the following steps:
-![Step-1]()
-![Step-2]()
-![Step-3]()
-![Step-4]()
-![Step-5]()
-![Step-6]()
+Step 1:
+![Step-1](https://github.com/zanda-cross/Leads-Tracker-App/blob/bcfd3c890a4ec434a6af646b9bcebaf884e41576/images/Mobile-1.jpg)
+
+Step 2:
+![Step-2](https://github.com/zanda-cross/Leads-Tracker-App/blob/3a393221126c9e1948b3594a8d313204ee233ff7/images/Mobile-2.jpg)
+
+Step 3:
+![Step-3](https://github.com/zanda-cross/Leads-Tracker-App/blob/3a393221126c9e1948b3594a8d313204ee233ff7/images/Mobile-3.jpg)
+
+Step 4:
+![Step-4](https://github.com/zanda-cross/Leads-Tracker-App/blob/3a393221126c9e1948b3594a8d313204ee233ff7/images/Mobile-4.jpg)
+
+Step 5:
+![Step-5](https://github.com/zanda-cross/Leads-Tracker-App/blob/3a393221126c9e1948b3594a8d313204ee233ff7/images/Mobile-5.jpg)
+
+Step 6:
+![Step-6](https://github.com/zanda-cross/Leads-Tracker-App/blob/3a393221126c9e1948b3594a8d313204ee233ff7/images/Mobile-6.jpg)
 
 
 ---
