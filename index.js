@@ -54,35 +54,21 @@ inputBtn.addEventListener("click", function() {
 
 
 
-// Dark Mode logic
-function applyDarkMode(state) {
-    if (state) {
-        document.body.classList.add("dark-mode")
-    } else {
-        document.body.classList.remove("dark-mode")
-    }
+const toggleDarkBtn = document.getElementById("toggle-dark")
+
+// Check stored preference
+if (localStorage.getItem("darkMode") === "true") {
+    document.body.classList.add("dark-mode")
 }
 
+// Toggle on click
+toggleDarkBtn.addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode")
+    const isDark = document.body.classList.contains("dark-mode")
+    localStorage.setItem("darkMode", isDark)
+})
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    const toggleDarkBtn = document.getElementById("toggle-dark");
-
-    function applyDarkMode(state) {
-        if (state) {
-            document.body.classList.add("dark-mode");
-        } else {
-            document.body.classList.remove("dark-mode");
-        }
-    }
-
-    applyDarkMode(localStorage.getItem("darkMode") === "true");
-
-    toggleDarkBtn.addEventListener("click", function () {
-        const isDark = document.body.classList.toggle("dark-mode");
-        localStorage.setItem("darkMode", isDark);
-    });
-});
 
 
 
