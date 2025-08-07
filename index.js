@@ -52,8 +52,6 @@ inputBtn.addEventListener("click", function() {
 })
 
 
-
-
 const toggleDarkBtn = document.getElementById("toggle-dark")
 
 // Check stored preference
@@ -67,6 +65,7 @@ toggleDarkBtn.addEventListener("click", function() {
     const isDark = document.body.classList.contains("dark-mode")
     localStorage.setItem("darkMode", isDark)
 })
+
 
 
 
