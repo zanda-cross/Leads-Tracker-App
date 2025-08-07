@@ -1,11 +1,9 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
-import {
-  getDatabase,
-  ref,
-  push,
-  onValue,
-  remove
-} from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js"
+import { getDatabase,
+         ref,
+         push,
+         onValue,
+         remove } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
 
 
 const firebaseConfig = {
@@ -75,6 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("darkMode", isDark);
     });
 });
+
 
 
 
