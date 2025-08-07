@@ -5,9 +5,8 @@ import { getDatabase,
          onValue,
          remove } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
 
-
 const firebaseConfig = {
-    databaseURL : "your database URL"
+    databaseURL : "https://leads-tracker-app-607a8-default-rtdb.europe-west1.firebasedatabase.app/"
 }
 
 const app = initializeApp(firebaseConfig);
@@ -50,8 +49,19 @@ deleteBtn.addEventListener("click", function() {
 inputBtn.addEventListener("click", function() {
     push(referenceInDB, inputEl.value)
     inputEl.value = ""
-
 })
+
+
+
+
+// Dark Mode logic
+function applyDarkMode(state) {
+    if (state) {
+        document.body.classList.add("dark-mode")
+    } else {
+        document.body.classList.remove("dark-mode")
+    }
+}
 
 
 
@@ -73,6 +83,8 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("darkMode", isDark);
     });
 });
+
+
 
 
 
