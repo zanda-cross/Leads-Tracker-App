@@ -15,7 +15,11 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #5f9341;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
+}
+
+#input-el {
+    margin-top: 4px;
 }
 
 button {
@@ -44,5 +48,8 @@ li {
 a {
     color: #5f9341;
 }
+
+
+
 
 
