@@ -6,7 +6,7 @@ import { getDatabase,
          remove } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
 
 const firebaseConfig = {
-    databaseURL : "https://leads-tracker-app-607a8-default-rtdb.europe-west1.firebasedatabase.app/"
+    databaseURL : "Add your databaseURL"
 }
 
 const app = initializeApp(firebaseConfig);
@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("darkMode", isDark);
     });
 });
+
 
 
 
