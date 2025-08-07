@@ -49,6 +49,44 @@ a {
     color: #5f9341;
 }
 
+/* DARK MODE STYLES */
+
+#toggle-dark {
+    margin-top: 5px;
+}
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode label {
+    color: #c3f29c;
+}
+
+body.dark-mode input {
+    background-color: #333;
+    color: white;
+    border: 1px solid #c3f29c;
+}
+
+body.dark-mode button {
+    background-color: #333;
+    color: #c3f29c;
+    border-color: #c3f29c;
+}
+
+body.dark-mode #delete-btn {
+    background-color: #1e1e1e;
+    color: #f08080;
+    border-color: #f08080;
+}
+
+body.dark-mode a {
+    color: #80c1ff;
+}
+
+
 
 
 
