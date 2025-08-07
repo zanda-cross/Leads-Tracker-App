@@ -1,9 +1,12 @@
-import { initializeApp } from "https://www.gstatic.com/"
-import { getDatabase,
-         ref,
-         push,
-         onValue,
-         remove } from "https://www.gstatic.com/";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+import {
+  getDatabase,
+  ref,
+  push,
+  onValue,
+  remove
+} from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+
 
 const firebaseConfig = {
     databaseURL : "your database URL"
@@ -72,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("darkMode", isDark);
     });
 });
+
 
 
 
